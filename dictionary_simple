@@ -1,0 +1,4 @@
+#Dictionary from a list of numbers to their squares.
+numbers=[1,2,3,4,5]
+squared={x:x**2 for x in numbers}
+print(squared)
